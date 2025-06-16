@@ -7,13 +7,31 @@
         PROYECTO INTRODUCCION A JS
     </title>
     <link rel="stylesheet" href="./public/lib/bootstrap-5.3.5-dist/css/bootstrap.min.css">
+
+    
+
 </head>
 <body>
-    
-    <h1>
-        HOLA MUNDO.!
-    </h1>
 
+    <h1>
+        SUMA DE DOS NUMEROS
+    </h1>
+    <hr>
+    <label for="primer_numero">INGRESE PRIMER NUMERO</label>
+    <input value="12" class="form-control" type="number" id="primer_numero">
+
+    <br> 
+    <label for="segundo_numero">INGRESE SEGUNDO NUMERO</label>
+    <input value="2" class="form-control" type="number" id="segundo_numero">
+    <br>
+    <button onclick="calcular_suma()" class="btn btn-primary">SUMAR</button>
+    <br>
+    <h1 id="txt_resultado"></h1>
+
+    
     <script src="./public/lib/bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+
+    <script src="./public/js/suma.js"></script>
+
 </body>
 </html>
